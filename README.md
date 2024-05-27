@@ -2,7 +2,7 @@
 
 This script monitors the price of a product and sends an email notification if the price drops below a desired threshold.
 
-### Requirements
+## Requirements
 
 - Python 3.x
 - requests library (`pip install requests`)
