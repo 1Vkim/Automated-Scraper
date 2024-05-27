@@ -21,7 +21,7 @@ def sendMail():
   s.login(username, password) # Logs into the email server for us
 
   msg = MIMEMultipart() # Creates the message
-  msg['To'] = "chijn.kong.156@gmail.com" # Sets the receiver's email address
+  msg['To'] = "" # Sets the receiver's email address
   msg['From'] = username # Sets the sender's email address
   msg['Subject'] = "PRICE STRIKE! TIME TO PURCHASE!"
   msg.attach(MIMEText(email, 'html')) # Attaches the email content to the message as html
